@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #10223f;
+}
+
+.planes {
+  height: 100vh;
+  padding: 100px;
+  font-family: "Lato", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titulo p {
+  font-weight: lighter;
+  font-size: 36px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: #fff;
+  font-style: italic;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+  width: 700px;
+}
+
+.card {
+  width: 320px;
+  height: 440px;
+  background: #e94347;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  justify-content: center;
+  text-decoration: none;
+  color: #fff;
+  font-size: 22px;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  transition: all 1s;
+}
+
+.logo {
+    background: #fff;
+    padding: 10px;
+}
+
+.valor {
+    margin-top: 60px;
+}
+
+
