@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.validar {
+  display: flex;
+  font-family: "Lato", sans-serif;
+}
+.validar__left {
+  background: #e94347;
+  width: 100%;
+  color: #fff;
+  height: 100vh;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.validar__right p {
+  color: #fff;
+  font-weight: lighter;
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.validar__right {
+  background: #10223f;
+  padding: 50px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  width: 100%;
+  color: #fff;
+}
+
+.formulario {
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+  justify-content: inherit;
+}
+
+.formularioTarjeta {
+  color: #fff;
+}
+
+.formularioInputError {
+  font-size: 12px;
+  margin-bottom: 0;
+  display: none;
+ }
+  
+ .formularioInputError-activo {
+  display: block;
+ }
+ 

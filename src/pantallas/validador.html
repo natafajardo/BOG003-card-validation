@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Tarjeta de crédito válida</title>
+  <link rel="stylesheet" href="../styles/validador.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div class="validar">
+    <section class="validar__left">
+
+      <img src="../img/credito.svg" width="35%" alt="">
+    </section>
+    <section class="validar__right">
+      <p>Ingresa tu numero de tarjeta para validarla.</p>
+      <form action="" class="formulario" id="formularioTarjeta">
+
+        <label for="numeroTarjera" class="formularioLabel">Ingrese número de Tarjeta</label>
+        <div class="formularioInput">
+          <input type="text" id="inputNumero" maxlength="19" autocomplete="off" max="19">
+        </div>
+
+        <div class="btnValidar">
+          <button type="submit" class="formularioBtn" id="formularioBoton">Validar</button>
+          
+    </section>
+  </div>
+
+  <script src="../js/pantalla3.js" type="module"></script>
+</body>
+
+</html>
