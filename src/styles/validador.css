@@ -49,13 +49,9 @@
   color: #fff;
 }
 
-.formularioInputError {
-  font-size: 12px;
-  margin-bottom: 0;
-  display: none;
+.formularioInput {
+  padding: 5px;
  }
   
- .formularioInputError-activo {
-  display: block;
- }
+ 
  

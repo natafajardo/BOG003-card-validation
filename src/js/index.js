@@ -1,30 +1,34 @@
-(function () {
-    const netflix = document.querySelector("#netflix");
-    const disney = document.querySelector("#disney");
-    const playstation = document.querySelector("#playstation");
-    const xbox = document.querySelector("#xbox");
+import validator from './validator.js';
 
-    
-    netflix.addEventListener("click", function() {
-        localStorage.setItem("selectedItem", "netflix");
-    })
-
-    playstation.addEventListener("click", function() {
-        localStorage.setItem("selectedItem", "playstation");
-    })
-
-    xbox.addEventListener("click", function() {
-        localStorage.setItem("selectedItem", "xbox");
-    })
-
-    disney.addEventListener("click", function() {
-        localStorage.setItem("selectedItem", "disney");
-    })
-})();
+const formularioTarjeta = document.querySelector('#formularioTarjeta'); 
+const formularioBoton = document.querySelector('#formularioBoton');
 
 
+formularioTarjeta.inputNumero.addEventListener('keyup', (e) => {
+    let valorInput = e.target.value;
 
+    formularioTarjeta.inputNumero.value = valorInput
+        .replace(/\s/g, '')//Espacios de cualquier tipo
+        .replace(/\D/g, '')//No es un Digito (0-9)
+        .trim();//elimina ultimo espacio
+});
 
+if (formularioBoton) {
+    formularioBoton.addEventListener('click', (e) => {
+        e.preventDefault();
+        const validated = validator.isValid(formularioTarjeta.inputNumero.value);
+        const maskedNumber = formularioTarjeta.inputNumero.value;
+        formularioTarjeta.reset();
 
+        setTimeout(function () {
+            if (!validated) {
+                alert(`La tarjeta de crédito ${validator.maskify(maskedNumber)} es Invalida`);
+            } else {
+                alert(`La tarjeta de crédito ${validator.maskify(maskedNumber)} es Valida`);
+            }
+        }, 100);
+
+    });
+}
 
 
