@@ -3,7 +3,7 @@
 <p>Nuestro proyecto se basa en brindar al cliente un servicio para adquirir diferentes planes de streaming los cuales serán bonos de regalo y tendra el servicio de validar tarjetas de crédito antes de la compra.</p>
 
 
-<img src="https://github.com/natafajardo/BOG003-card-validation/blob/master/src/img/pantalla1.png"
+<img src="https://github.com/natafajardo/BOG003-card-validation/blob/master/src/img/pantalla1.png">
 
 
 
