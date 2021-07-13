@@ -7,6 +7,8 @@
 
 <img src="https://github.com/natafajardo/BOG003-card-validation/blob/master/src/img/pantalla2.jpeg" width="50%">
 
+<img src="https://github.com/natafajardo/BOG003-card-validation/blob/master/src/img/pantalla3.jpeg" width="50%">
+
 
 
 <p>¿Quiénes son los usuarios? Cualquier persona que pueda acceder a la red, personas que buscan regalar un bono de streaming a alguien especial o simplemente darse un gusto.</p>
