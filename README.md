@@ -21,7 +21,7 @@
 <p>Muchas veces las personas no tienen un alto presupuesto para dar un regalo o para simplemente darse un gusto,  por eso nuestra plataforma quiere ofrecerles planes accesibles a sus presupuestos, además que les permite navegar de manera simple para elegir el regalo.</p>
 
 # Prototipo papel
-<br>
+
 
 # Prototipo final
 
