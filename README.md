@@ -21,7 +21,19 @@
 <p>Muchas veces las personas no tienen un alto presupuesto para dar un regalo o para simplemente darse un gusto,  por eso nuestra plataforma quiere ofrecerles planes accesibles a sus presupuestos, además que les permite navegar de manera simple para elegir el regalo.</p>
 
 # Prototipo papel
-<br>
+<img src="https://github.com/natafajardo/BOG003-card-validation/blob/master/src/img/papel1.jpeg" width="50%">
+
+<img src="https://github.com/natafajardo/BOG003-card-validation/blob/master/src/img/papel2.jpeg" width="50%">
+
+<img src="https://github.com/natafajardo/BOG003-card-validation/blob/master/src/img/papel3.jpeg" width="50%">
 
 # Prototipo final
+
+
+<img src="https://github.com/natafajardo/BOG003-card-validation/blob/master/src/img/final1.jpeg" width="50%">
+
+<img src="https://github.com/natafajardo/BOG003-card-validation/blob/master/src/img/final2.jpeg" width="50%">
+
+<img src="https://github.com/natafajardo/BOG003-card-validation/blob/master/src/img/final3.jpeg" width="50%">
+
 
